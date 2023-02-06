@@ -4,6 +4,7 @@
     border-width: 1px;
     border-style: solid;
     border-color: color(bg, 3);
+	border-radius: 2px;
     color: color(typography, 2);
     max-width: 100%;
     width: 100%;
@@ -27,7 +28,7 @@
     &:active,
     &:focus {
         outline: none;
-        border-color: color(primary, 1);
+        border-color: color(bg, 3);
     }
 
     &[disabled] {

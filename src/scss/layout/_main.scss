@@ -1,9 +1,9 @@
 .is-boxed {
-    background: lighten(color(bg, 1), 4%);
+    background: color(bg, 3);
 }
 
 .body-wrap {
-    background: color(bg, 1);
+    background: color(bg, 2);
     overflow: hidden;
     /* Sticky footer */
     display: flex;
@@ -15,6 +15,7 @@
     max-width: 1440px;
     margin: 0 auto;
     @include shadow;
+    mix-blend-mode: normal;
 }
 
 main {
@@ -23,8 +24,8 @@ main {
 
 .section-inner {
     position: relative; /* To always display inner elements above pseudo decorative stuff */
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 @include media( '>medium' ) {
